@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: auto;
+    color: black;
+    background-color: aqua;
+    font-size: 30px;
+    align-items: center;
+  
+}
+.logo img{
+    width: 80px;
+    border-radius: 50%;
+}
+.menu{
+   
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+
+  }
+.menu ul li{
+    margin-left: 100px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: cadetblue;
+}
+.banner img{
+    width: 84%;
+    margin-left: 153px;
+    
+ 
+    height: 900px;
+}
